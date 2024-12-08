@@ -11,8 +11,8 @@ console.log("ENV", process.env);
 const apiUrl = `${process.env.API_URL}/test2`;
 
 const signer = new SignatureV4({
-  // credentials: defaultProvider(), NOT WORKING
-  credentials: defaultProvider({profile: "default"}),
+  credentials: defaultProvider(), //NOT WORKING
+  // credentials: defaultProvider({profile: "default"}),
   sha256: Sha256,
   region: "eu-west-1",
   service: "execute-api",
@@ -41,6 +41,6 @@ export async function handler() {
   console.log("response", data);
   return {
     statusCode: 200,
-    body: "hello world from lambda2",
+    body: "hello world from lambda1",
   };
 }
