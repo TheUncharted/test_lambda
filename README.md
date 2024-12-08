@@ -1,4 +1,4 @@
-# JobDealer Project
+# TestLambda Project
 
 To install dependencies:
 
