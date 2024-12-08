@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# sst
+.sst
+
+.env.local
+.history
+
+migrations/*
+secrets.local
+
+# env
+.venv
+__pycache__

@@ -1,0 +1,19 @@
+{
+  "name": "ion-template-saas",
+  "dependencies": {
+    "@pulumi/aws": "^6.64.0",
+    "sst": "3.2.73"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.143",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "5.3.3"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ]
+}
